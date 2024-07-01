@@ -26,8 +26,8 @@ timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 echo $timestamp 
 
-insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache, total_mem)
-	     VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', '$total_mem')"
+insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache,\"timestamp\", total_mem)
+	     VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', "$timestamp", '$total_mem')"
 
 export PGPASSWORD=$psql_password 
 
