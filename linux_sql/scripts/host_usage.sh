@@ -18,7 +18,9 @@ vmstat_mb=$(vmstat --unit M)
 hostname=$(hostname -f)
 
 
-memory_free=$(vmstat --unit M | tail -1 | awk '{print $4}')
+#memory_free=$(vmstat --unit M | tail -1 | awk '{print $4}')
+
+memory_free=$(vmstat -s | grep 'free memory' | awk '{print $1}')
 cpu_idle=$(vmstat | tail -1 | awk '{print $15}')
 cpu_kernel=$(vmstat | tail -1 | awk '{print $14}')
 disk_io=$(vmstat -d | tail -1 | awk '{print $10}')
@@ -36,10 +38,11 @@ if [ -z "$host_id" ]; then
 fi
 
 # Construct the INSERT statement with the correct host_id value
-insert_stmt="INSERT INTO host_usage (timestamp, host_id, cpu_idle, cpu_kernel, disk_io, disk_available) VALUES ('$timestamp', $host_id, $cpu_idle, $cpu_kernel, $disk_io, $disk_available);"
+insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, cpu_kernel, disk_io, disk_available)
+                           VALUES ('$timestamp', $host_id, $memory_free, $cpu_idle,  $cpu_kernel, $disk_io, $disk_available);"
 
 # Set up env var for pql cmd
-xport PGPASSWORD="$psql_password"
+export PGPASSWORD="$psql_password"
 
 # Insert data into a database 
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"

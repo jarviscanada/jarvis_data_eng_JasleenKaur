@@ -17,19 +17,26 @@ hostname=$(hostname -f)
 cpu_number=$(nproc)
 cpu_architecture=$(lscpu | grep 'Architecture' | awk '{print $2}')
 cpu_model=$(lscpu | grep 'Model name' | sed -r 's/Model name:\s+//')
-cpu_mhz=$(lscpu | grep 'CPU MHz' | awk '{print $3}')
+# cpu_mhz=$(lscpu | grep 'CPU MHz' | awk '{print $3}')
+cpu_mhz=$(grep 'cpu MHz' /proc/cpuinfo | awk '{print $4}' | head -1)
 l2_cache=$(lscpu | grep 'L2 cache' | awk '{print $3}' | sed 's/K//')
 total_mem=$(vmstat --unit M | tail -1 | awk '{print $4}')
-timestamp=$(vmstat -t | awk 'NR==3 {print $18, $19}')
-
-formatted_timestamp=$(date -d "$timestamp" '+%Y-%m-%d %H:%M:%S')
+timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
 
+#timestamp=$(vmstat -t | awk '{print $18, $19}'| tail -1 | xargs )
 
+
+#echo $cpu_number
+#echo $cpu_architecture
+#echo $cpu_model
+echo $cpu_mhz
+echo $l2_cache
+echo $total_mem
 echo $timestamp 
 
-insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache,\"timestamp\", total_mem)
-VALUES ('$hostname', '$cpu_number', '$cpu_architecture', '$cpu_model', '$cpu_mhz', '$l2_cache', TO_TIMESTAMP("$formatted_timestamp" , 'YYYY-MM-DD HH24:MI:SS'), '$total_mem')"
+insert_stmt="INSERT INTO host_info (hostname, cpu_number, cpu_architecture, cpu_model, cpu_mhz, l2_cache ,timestamp , total_mem)
+VALUES ('$hostname', '$cpu_number', '$cpu_architecture','$cpu_model', '$cpu_mhz', '$l2_cache','$timestamp' , '$total_mem')"
 
 export PGPASSWORD=$psql_password 
 
