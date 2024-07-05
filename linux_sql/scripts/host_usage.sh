@@ -27,9 +27,11 @@ disk_io=$(vmstat -d | tail -1 | awk '{print $10}')
 disk_available=$(df -BM / | tail -1 | awk '{print $4}' | sed 's/M//')
 timestamp=$(date +"%Y-%m-%d %H:%M:%S")
 
+#export PGPASSWORD= $psql_password
 
 #Retrieve host id from host_info table based on host name
-host_id=$(psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -t -c "SELECT id FROM host_info WHERE hostname = '$hostname';")
+host_id=$( export PGPASSWORD= $psql_password 
+	psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -t -c "SELECT id FROM host_info WHERE hostname = '$hostname';")
 
 # Check if host_id is null
 if [ -z "$host_id" ]; then
@@ -42,7 +44,7 @@ insert_stmt="INSERT INTO host_usage (timestamp, host_id, memory_free, cpu_idle, 
                            VALUES ('$timestamp', $host_id, $memory_free, $cpu_idle,  $cpu_kernel, $disk_io, $disk_available);"
 
 # Set up env var for pql cmd
-export PGPASSWORD="$psql_password"
+ export PGPASSWORD="$psql_password"
 
 # Insert data into a database 
 psql -h "$psql_host" -p "$psql_port" -d "$db_name" -U "$psql_user" -c "$insert_stmt"
