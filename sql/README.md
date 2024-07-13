@@ -33,8 +33,8 @@ insert into cd.facilities. \
 #### Question 3 - We made a mistake when entering the data for the second tennis court. The initial outlay was 10000 rather than 8000: you need to alter the data to fix the error.
 #### Answer 3 :
 update cd.facilities \
-set initialoutlay = 10000 \ 
-where name = 'Tennis Court 2';
+	set initialoutlay = 10000 \ 
+	where name = 'Tennis Court 2';
 
 #### Question 4 - We want to alter the price of the second tennis court so that it costs 10% more than the first one. Try to do this without using constant values for the prices, so that we can reuse the statement if we want to.
 #### Answer 4 - 
