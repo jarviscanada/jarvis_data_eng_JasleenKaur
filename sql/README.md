@@ -135,9 +135,10 @@ select distinct r.firstname as firstname, r.surname as surname \
 
 #### Question 16 - How can you output a list of all members, including the individual who recommended them (if any), without using any joins? Ensure that there are no duplicates in the list, and that each firstname + surname pairing is formatted as a column and ordered.
 #### Answer 16: 
-select recommendedby, count(*) \
-	 from cd.member s\ 
- 	where recommendedby is not null\
- 	group by recommendedby\
+```sql
+select recommendedby, count(*) 
+	 from cd.member s
+ 	where recommendedby is not null
+ 	group by recommendedby
  	order by recommendedby;
  
