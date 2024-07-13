@@ -43,10 +43,8 @@ update cd.facilities \
         membercost = (select membercost * 1.1 from cd.facilities where facid = 0), \
         guestcost = (select guestcost * 1.1 from cd.facilities where facid = 0) \
     where facid = 1;  
-update cd.facilities \ 
 
 #### Question 5 - As part of a clearout of our database, we want to delete all bookings from the cd.bookings table. How can we accomplish this?
-
 #### Answer 5: 
 delete from cd.bookings;
 
@@ -58,33 +56,39 @@ delete from cd.members where memid = 37;
 
 #### Question 7 - How can you produce a list of facilities that charge a fee to members, and that fee is less than 1/50th of the monthly maintenance cost? Return the facid, facility name, member cost, and monthly maintenance of the facilities in question.
 #### Answer 7:
-select facid, name, membercost, monthlymaintenance\
-	from cd.facilities\ 
-	where\  
-		membercost > 0 and\ 
-		(membercost < 0.02*monthlymaintenance );\
+select facid, name, membercost, monthlymaintenance \
+	from cd.facilities \ 
+	where \  
+		membercost > 0 and \ 
+		(membercost < 0.02*monthlymaintenance );
 
 #### Question 8 - How can you produce a list of all facilities with the word 'Tennis' in their name?
 #### Answer 8:
-select * from cd.facilities\ 
-where name like '%Tennis%';
+select * \
+	from cd.facilities \ 
+	where \
+		name like '%Tennis%';  
 
 #### Question 9 - How can you retrieve the details of facilities with ID 1 and 5? Try to do it without using the OR operator.
 #### Answer 9:
-select * from cd.facilities\ 
-where facid in (1,5);
+select * \
+	from cd.facilities \ 
+	where \
+		facid in (1,5); 
 
 #### Question 10 - How can you produce a list of members who joined after the start of September 2012? Return the memid, surname, firstname, and joindate of the members in question.
 #### Answer 10:
-select memid, surname, firstname, joindate\ 
-from cd.members\ 
-where joindate >= '2012-09-01';
+select memid, surname, firstname, joindate \ 
+	from cd.members \
+	where joindate >= '2012-09-01';  
 
 #### Question 11 - You, for some reason, want a combined list of all surnames and all facility names. Yes, this is a contrived example :-). Produce that list!
-#### Answer 11 - 
-select surname from cd.members\
+#### Answer 11 -
+select surname \
+	from cd.members\
 union\
-select name from cd.facilities;
+select name \
+	from cd.facilities;  
 
 ### JOIN 
 
@@ -112,9 +116,9 @@ order by b.starttime ;
 
 #### Question 14 - How can you output a list of all members, including the individual who recommended them (if any)? Ensure that results are ordered by (surname, firstname).
 #### Answer 14:
-select m.firstname as memfname,\
-	   m.surname as memsname,\
-	   r.firstname as recfname
+select m.firstname as memfname, \
+	   m.surname as memsname, \
+	   r.firstname as recfname, \
 	   r.surname as recsname\
 from cd.members as m\
 left outer join cd.members as r \
@@ -123,17 +127,17 @@ order by memsname, memfname;
 
 #### Question 15 - How can you output a list of all members who have recommended another member? Ensure that there are no duplicates in the list, and that results are ordered by (surname, firstname).
 #### Answer 15
-select distinct r.firstname as firstname, r.surname as surname\
-from cd.members as m \
-inner join cd.members as r\ 
-on m.recommendedby = r.memid\ 
-order by surname, firstname;
+select distinct r.firstname as firstname, r.surname as surname \
+	from cd.members as m \
+	inner join cd.members as r \ 
+	on m.recommendedby = r.memid \ 
+	order by surname, firstname;
 
 #### Question 16 - How can you output a list of all members, including the individual who recommended them (if any), without using any joins? Ensure that there are no duplicates in the list, and that each firstname + surname pairing is formatted as a column and ordered.
 #### Answer 16: 
-select recommendedby, count(*)\
- from cd.members\ 
- where recommendedby is not null\
- group by recommendedby\
- order by recommendedby;
+select recommendedby, count(*) \
+	 from cd.member s\ 
+ 	where recommendedby is not null\
+ 	group by recommendedby\
+ 	order by recommendedby;
  
