@@ -58,7 +58,7 @@ select starttime
 from cd.bookings  as b
 inner join cd.members as m
 on b.memid = m.memid 
-and m.firstname = 'David 
+and m.firstname = 'David' 
 and m.surname = 'Farrell';
 
 -- Query 13
