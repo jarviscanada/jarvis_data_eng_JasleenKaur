@@ -1,4 +1,4 @@
-
+\c exercises;
 -- Query 1 - 
 
 insert into cd.facilities
