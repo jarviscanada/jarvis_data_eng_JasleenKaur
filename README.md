@@ -13,11 +13,7 @@ I am a highly skilled Business Technical Analyst with 2 years of experience at D
 Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git](https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git)
 
 
-**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git/tree/master/linux_sql)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-
-**Python Data Analytics** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git/tree/master/python_data_anlytics)]: Not Started
-
-**Hadoop** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git/tree/master/hadoop)]: Not Started
+**Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git/tree/master/linux_sql)]: Helped develop a user-friendly solution to manage a 10-server cluster. Responsibilities included recording the hardware specifications of each node and monitoring real-time resource usage. It was achieved using bash scripts for data collection, PostgreSQL for data storage, Docker for consistent execution and compatibility, and Git for version control. The collected data facilitated the generation of reports to support future resource planning, such as adding or removing servers. This project honed my skills in system administration, scripting, and database management, ensuring efficient cluster performance and scalability.
 
 
 ## Highlighted Projects

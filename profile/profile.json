@@ -35,19 +35,9 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "Helped develop a user-friendly solution to manage a 10-server cluster. Responsibilities included recording the hardware specifications of each node and monitoring real-time resource usage. It was achieved using bash scripts for data collection, PostgreSQL for data storage, Docker for consistent execution and compatibility, and Git for version control. The collected data facilitated the generation of reports to support future resource planning, such as adding or removing servers. This project honed my skills in system administration, scripting, and database management, ensuring efficient cluster performance and scalability.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
-    },
-    {
-      "description": "",
-      "git_url": "/python_data_anlytics",
-      "name": "Python Data Analytics"
-    },
-    {
-      "description": "",
-      "git_url": "/hadoop",
-      "name": "Hadoop"
     }
   ],
   "name": "Jasleen Kaur Arora",
