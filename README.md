@@ -34,12 +34,12 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JasleenKau
 
 
 ## Education
-**XYZ university (2012-2016)**, Bachelor of Applied Sciences, Electrical and Computer Engineering
-- Scholarship
-- Dean's List (2015, 2016): Ut enim ad minim veniam
-- GPA: 3.8/4.0
+**George Brown College (Aug 2022 - Dec 2023)**, Postgraduate Diploma, Information Systems Business Analysis
+- Dean's List : Fall 2022, Winter 2023, Fall 2023
+- GPA: 3.67/4.0
 
-**XYZ university (2016-2018)**, Master of Engineering, Electrical and Computer Engineering
+**University of Delhi (2017-2020)**, Bachelor of Science(Honours), Computer Science
+- GPA: 8.68/10
 
 
 ## Miscellaneous

@@ -75,21 +75,20 @@ professional_experience:
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "George Brown College"
+    duration: "Aug 2022 - Dec 2023"
+    degree: "Postgraduate Diploma"
+    department: "Information Systems Business Analysis"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
+      - "Dean's List : Fall 2022, Winter 2023, Fall 2023"
+      - "GPA: 3.67/4.0"
+  - school_name: "University of Delhi"
+    duration: "2017-2020"
+    degree: "Bachelor of Science(Honours)"
+    department: "Computer Science"
     awards_achievements: 
-
+      - "GPA: 8.68/10"
 #Optional section
 others:
     #category

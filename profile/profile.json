@@ -2,21 +2,22 @@
   "education": [
     {
       "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
+        "Dean's List : Fall 2022, Winter 2023, Fall 2023",
+        "GPA: 3.67/4.0"
       ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "degree": "Postgraduate Diploma",
+      "department": "Information Systems Business Analysis",
+      "duration": "Aug 2022 - Dec 2023",
+      "school_name": "George Brown College"
     },
     {
-      "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "awards_achievements": [
+        "GPA: 8.68/10"
+      ],
+      "degree": "Bachelor of Science(Honours)",
+      "department": "Computer Science",
+      "duration": "2017-2020",
+      "school_name": "University of Delhi"
     }
   ],
   "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_JasleenKaur.git",
