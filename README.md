@@ -17,9 +17,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JasleenKau
 
 
 ## Highlighted Projects
-**Web app for resturant** [[GitHub](https://github.com/jarviscanada/jarvis_profile_builder)]: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**SAP Survey Automation**: To improve accuracy and efficiency, I automated the SAP Survey t-code procedure.Excel sheets were used as the process's primary input, and they were later transformed into an orderly XML format that included the creation of a GUID.The surveys were then prepared for distribution by integrating the XML into the survey t-code. This involved understanding the schema of the Survey Database and investigating the process with the help of manual debugging.Additionally, I automated the survey distribution process and ensured seamless recording of responses into the database. This project streamlined survey management, reducing manual effort and minimizing errors and also the need for third-party vendors.
 
-**Machine Learning**: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+**Software Development**: Contributed to the development of antimyatra.com by designing and implementing the software architecture and schema for the website.My role involved creating detailed system schemas to support the platform's core functionalities, including hospital formalities, cremation arrangements, and paperwork management. I also developed the final proposal for the project, outlining technical specifications and implementation strategies. This work ensured that the platform could efficiently handle user requests and integrate with external systems while adhering to traditional practices for performing final rites.
 
 
 ## Professional Experiences
