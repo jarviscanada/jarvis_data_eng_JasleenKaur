@@ -16,17 +16,32 @@ skills:
   #     1)soft skills (e.g. elicitation, communicaiton, collaberation, interpersonal, etc ) 
   #     2) business tools (such as Excel, Viso, etc.)
   Business Skills:
-    - Donec
-    - Donec
-    - Donec
-    - fermentum
-    - Donec
+    - Word 
+    - Power Point
+    - Excel 
+    - Outlook
+    - Teams 
+    - Visio 
+    - Power BI  
+    - Business Requirement Document 
+    - Use Cases 
+    - Technical Specification Document 
+    - Technical Unit Testing 
+    - Functional Requirement Specification
+
   # Please add more data related skills, such as Python, Tableau, R, Matlab, AI, ML, Statistics, etc.
   # You can also add some programming skills, such as programming languages, GIT, Linux, Cloud Platform, tools, etc.
   Technical Skills:
     - RDBMS/SQL
     - Data Modeling/Mapping
     - Data Analytics
+    - JIRA 
+    - Python 
+    - Tableau 
+    - SAP ABAP 
+    - R 
+    - JavaScript 
+    - C++ 
 
 # List of Jarvis projects
 # Please describe your resume from a BSA perspective (e.g. requirement elicitation, scope, stakeholder, coordination, diagrams)

@@ -4,9 +4,9 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac
 
 ## Skills
 
-**Business Skills:** Donec, Donec, Donec, fermentum, Donec
+**Business Skills:** Word, Power Point, Excel, Outlook, Teams, Visio, Power BI, Business Requirement Document, Use Cases, Technical Specification Document, Technical Unit Testing, Functional Requirement Specification
 
-**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics
+**Technical Skills:** RDBMS/SQL, Data Modeling/Mapping, Data Analytics, JIRA, Python, Tableau, SAP ABAP, R, JavaScript, C++
 
 ## Jarvis Projects
 
