@@ -24,9 +24,9 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JasleenKau
 
 ## Professional Experiences
 
-**Software Developer, Jarvis (2020-present)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Business Analyst Intern, Podium Prosperity Group (May 2023 - Aug 2023)**: Analyzed and created comprehensive documentation, including user stories, business requirement documents (BRD), functional specifications, and user manuals.Leveraged R, SQL, and Excel to clean and analyse large datasets, yielding actionable insights that increased revenue by 20%. Identified opportunities for process improvement and efficiency gains through detailed process mapping and analysis, resulting in 40% increase in efficiency. 
 
-**Tutor, XYZ Company (2019)**: Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.
+**Business Technical Analyst, Deloitte (Nov 2020 - Aug 2022)**: Developed 25 new requirements by collaborating with business analysts and stakeholders to gather requirements, define technical specifications, and conduct tests, resulting in improved system functionality and user satisfaction. Optimized performance of 8 ? 10 critical programs reducing processing time by up to 67.5%. Optimized maintenance and organization of project documentation, including task trackers and secure data, resulting in 35% increase in reporting efficiency and saving the team 12 hours weekly. Created technical specifications and unit testing documents for over 75 new requirements, ensuring clear communication and project alignment with stakeholders.
 
 
 ## Education
