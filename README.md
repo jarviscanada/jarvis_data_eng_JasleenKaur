@@ -39,8 +39,7 @@ Project source code: [https://github.com/jarviscanada/jarvis_data_eng_JasleenKau
 
 
 ## Miscellaneous
-- Udacity Machine Learning (2019)
-- Winner
-- Basketball player; joined xyz club
-- Competitive gaming; compete for xyz
-- Volunteer, ABC Food bank: Ut enim ad minim veniam
+- SQL for Exploratory Data Analysis
+-  ABAP programming on SAP BTP
+- Fitness/ Outdoor activities
+- Photography

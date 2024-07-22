@@ -106,12 +106,10 @@ others:
   - title: "Certificates"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
+      - "SQL for Exploratory Data Analysis"
+      - " ABAP programming on SAP BTP"
+
   - title: "Activities/Hobbies"
     bullets:
-      - "Basketball player; joined xyz club"
-      - "Competitive gaming; compete for xyz"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - "Fitness/ Outdoor activities"
+      - "Photography"
