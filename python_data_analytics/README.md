@@ -1,4 +1,4 @@
-<h4> Describe the business context of this project</h4>
+####  Describe the business context of this project
 
 London Gift Shop (LGS) is an established online retailer specializing in giftware, catering to both individual customers and wholesalers. Despite a decade of operations, LGS has experienced stagnation in revenue growth. To address this challenge, the company seeks to leverage modern data analytics to gain deeper insights into customer behavior and preferences.
 The marketing team at LGS is aiming to enhance their strategies by developing targeted marketing campaigns, such as personalized emails, promotional events, and specific product promotions. However, the marketing team lacks the technical expertise to handle data analysis, and the IT department is stretched thin with existing projects.
