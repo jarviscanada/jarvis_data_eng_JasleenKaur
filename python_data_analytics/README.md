@@ -1,4 +1,4 @@
-####h4 Describe the business context of this project
+<h4> Describe the business context of this project</h4>
 
 London Gift Shop (LGS) is an established online retailer specializing in giftware, catering to both individual customers and wholesalers. Despite a decade of operations, LGS has experienced stagnation in revenue growth. To address this challenge, the company seeks to leverage modern data analytics to gain deeper insights into customer behavior and preferences.
 The marketing team at LGS is aiming to enhance their strategies by developing targeted marketing campaigns, such as personalized emails, promotional events, and specific product promotions. However, the marketing team lacks the technical expertise to handle data analysis, and the IT department is stretched thin with existing projects.
@@ -6,7 +6,7 @@ To bridge this gap, LGS has engaged Jarvis consulting services to deliver a proo
 The POC will use advanced data analysis tools such as Python, Jupyter Notebook, Pandas, and Numpy. The analysis will focus on understanding customer preferences, purchasing patterns, and the effectiveness of past marketing initiatives, even though Jarvis is restricted from working directly within LGS's Azure environment.
 
 
-####h4 Also, describe how LGS would use your analytic result
+<h4> Also, describe how LGS would use your analytic result</h4>
 
 The analytics results from the proof of concept (POC) project will be pivotal for LGS?s marketing team in several keyways:
 
@@ -22,8 +22,7 @@ The analytics results from the proof of concept (POC) project will be pivotal fo
 	Engagement Strategies: Insights into customer preferences and behaviors help LGS develop strategies to enhance customer loyalty and retention. For example, they can design loyalty programs or special offers that encourage repeat purchases and foster long-term relationships with customers.
 Overall, the analytics will empower LGS to make data-driven decisions, leading to more effective marketing campaigns, improved customer engagement, and ultimately, increased revenue growth.
 
-
-####h4 Describe your work and technologies used
+<h4> Describe your work and technologies used</h4>
 
 The primary objective of this proof of concept (POC) project is to analyze customer shopping behavior to aid the marketing team at London Gift Shop (LGS) in developing targeted marketing strategies. The work involves several key stages:
 1.	Data Extraction and Preparation:
@@ -48,7 +47,7 @@ Technologies Used:
 	Matplotlib: Library for creating visualizations to help interpret data patterns and trends.
 
 
-####h4 Describe the architecture of this project, including the LGS web app.
+<h4> Describe the architecture of this project, including the LGS web app.</h4>
 
 Project Architecture:
 1.	LGS Web Application:
@@ -71,7 +70,7 @@ Project Architecture:
 	Presentation to LGS: Present the findings and recommendations to the LGS marketing team. Provide insights into customer behavior and suggest targeted marketing strategies based on the analysis.
 	Documentation: Ensure that all analytical processes, findings, and recommendations are well-documented and presented in a format that is easy for the LGS team to understand and act upon.
 
-####h4 Discuss how would you use the data to help LGS to increase their revenue 
+<h4> Discuss how would you use the data to help LGS to increase their revenue</h4> 
 
 To help LGS increase their revenue using the data, we can design a data-driven marketing strategy based on the insights gained from the analysis. 
 1. Customer Segmentation
@@ -112,7 +111,7 @@ Action:
 Strategy:
 	Targeted Advertising: Use targeted online advertising based on customer profiles and behaviors to reach potential new customers who are likely to be interested in LGS products.
 
-####h4 List three improvements that you want to do if you got more time
+<h4> List three improvements that you want to do if you got more time</h4>
 
 Here are three potential improvements I?d focus on if given more time for the LGS project:
 1. Advanced Predictive Analytics
